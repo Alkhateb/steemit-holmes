@@ -1,0 +1,7 @@
+{
+  "require": {
+    "tedivm\/stash": "0.14.*",
+    "tabler\/tabler": "*"
+  },
+  "version": "dev-master"
+}
