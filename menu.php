@@ -14,22 +14,23 @@
             <div class="col-lg order-lg-first">
                 <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
                     <li class="nav-item">
-                        <a href="./index.html" class="nav-link active">
-                            <i class="fe fe-home"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link" data-toggle="dropdown">
-                            <i class="fe fe-user"></i> User
+                        <a href="./" class="nav-link<?php if ($page === false) { ?> active<?php }; ?>">
+                            <i class="fe fe-home"></i> Home
                         </a>
                     </li>
+                    <!--                    <li class="nav-item">-->
+                    <!--                        <a href="" class="nav-link" data-toggle="dropdown">-->
+                    <!--                            <i class="fe fe-user"></i> User-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
+                    <!--                    <li class="nav-item">-->
+                    <!--                        <a href="" class="nav-link" data-toggle="dropdown">-->
+                    <!--                            <i class="fa fa-tags"></i> Tags-->
+                    <!--                        </a>-->
+                    <!---->
+                    <!--                    </li>-->
                     <li class="nav-item">
-                        <a href="" class="nav-link" data-toggle="dropdown">
-                            <i class="fa fa-tags"></i> Tags
-                        </a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link" data-toggle="dropdown">
+                        <a href="/?about" class="nav-link<?php if ($page === 'about') { ?> active<?php }; ?>">
                             <i class="fa fa-coffee"></i> About
                         </a>
                     </li>

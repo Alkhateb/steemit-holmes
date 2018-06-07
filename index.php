@@ -101,7 +101,7 @@ if (isset($_REQUEST['about'])) {
                     break;
 
                 case 'about':
-                    //require 'src/about.php';
+                    require 'src/about.php';
                     break;
 
                 default:
@@ -119,6 +119,11 @@ if (isset($_REQUEST['about'])) {
                     <div class="row align-items-center">
                         <div class="col-auto">
                             <ul class="list-inline list-inline-dots mb-0">
+                                <li class="list-inline-item">
+                                    <a href="/?about" target="_blank">
+                                        About
+                                    </a>
+                                </li>
                                 <li class="list-inline-item">
                                     <a href="https://github.com/pcsg/steemit-holmes/wiki" target="_blank">
                                         Documentation
