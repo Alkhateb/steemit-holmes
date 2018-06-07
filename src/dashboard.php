@@ -17,6 +17,11 @@
 
         <div class="row row-cards">
             <?php require 'dashboard/general-votes.php'; ?>
+            <?php require 'dashboard/witness-votes.php'; ?>
+        </div>
+
+        <div class="row row-cards">
+            <?php require 'dashboard/transfers.php'; ?>
         </div>
 
     </div>
