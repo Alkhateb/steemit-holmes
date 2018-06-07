@@ -22,6 +22,7 @@
 
         <div class="row row-cards">
             <?php require 'dashboard/transfers.php'; ?>
+            <?php require 'dashboard/comments.php'; ?>
         </div>
 
     </div>
