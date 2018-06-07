@@ -1,0 +1,5 @@
+.idea/
+etc/
+var/
+vendor/
+composer.lock
