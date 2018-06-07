@@ -12,6 +12,12 @@
 
         <div class="row row-cards">
             <?php require 'dashboard/registrations.php'; ?>
+            <?php require 'dashboard/registrations-pie.php'; ?>
         </div>
+
+        <div class="row row-cards">
+            <?php require 'dashboard/general-votes.php'; ?>
+        </div>
+
     </div>
 </div>
