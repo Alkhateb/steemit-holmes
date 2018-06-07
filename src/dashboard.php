@@ -6,6 +6,12 @@
             </h1>
         </div>
 
-        <?php require 'dashboard/cards_accounts.php'; ?>
+        <div class="row row-cards">
+            <?php require 'dashboard/cards_accounts.php'; ?>
+        </div>
+
+        <div class="row row-cards">
+            <?php require 'dashboard/registrations.php'; ?>
+        </div>
     </div>
 </div>

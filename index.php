@@ -60,10 +60,12 @@ if (isset($_REQUEST['about'])) {
 
     <link href="/bin/css/style.css" rel="stylesheet"/>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
     <script src="<?php echo $tablerDir; ?>/assets/js/require.min.js"></script>
     <script>
         requirejs.config({
-            baseUrl: '/'
+            baseUrl: '<?php echo $tablerDir;?>'
         });
     </script>
 
