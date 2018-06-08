@@ -57,6 +57,10 @@ Features
 Preview
 ------
 
+![Preview 1](bin/images/previews/1.jpg)
+
+![Preview 1](bin/images/previews/2.jpg)
+
 
 
 Wichtige Links
@@ -83,6 +87,6 @@ Du kannst unter folgenden Adressen gerne ein Obulus da lassen:
 
 - STEEM: @pcsg-de
 - BTC:
-- Dash:
-- AEG:
-- FLM:
+- Dash: XpsefuXQA6zNRGhUt9cWtKqo5fPdueB75A
+- AEG: AZj6E8zcKZRM6e7ZEnatBPZR49nN9BXBkP
+- FLM: FcZvdUkS3zNHD9Mp44S9yE56PP3K5gvYow
