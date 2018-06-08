@@ -1,22 +1,21 @@
 STEEMIT Holmes
 ======
 
-Hallo, gestatten, Holmes,
-STEEMIT Holmes.
+Hello, Holmes, STEEMIT Holmes.
 
 ![STEEMIT Holmes](bin/images/jediholmshenwatson2_mini.png)
 
-ich bin dein persönlicher Helfer und Aufklärer in der STEEM Blockchain.
-Ich weis **viel** und möchte noch mehr wissen und auf das **viel** habe ich
-noch mehr Antworten. Die Blockchain vergisst nie aber sie verschleiert.
+I'm your personal assistant and scout in the STEEM Blockchain.
+I know **much** and I want to know more and I have even more answers to **much**.
+The Blockchain never forgets but it obscures.
 
-Daher helfe ich dir die Nadel im STEEM Haufen zu finden. Keine Frage ist mir zu kompliziert.
+So I'm helping you find the needle in the STEEM pile. No question is too complicated for me.
 
 
-Was wird benötigt:
+What is needed:
 ------
 
-- Zugang zu einer [S2DB]() Instanz mit default Einstellungen
+- Access to a [S2DB]() instance with default settings
 - Webserver (Apache / NGINX / etc)
 - PHP
 - Git (optional)
@@ -25,23 +24,23 @@ Was wird benötigt:
 Installation
 ------
 
-Wenn du oben alles hast, dann kann es mit der Installation los gehen.
-Unter https://github.com/pcsg/steemit-holmes findest du die neuste Version von mir.
+If you have everything upstairs, then the installation can start.
+At https://github.com/pcsg/steemit-holmes you can find the latest version of me.
 
-Lade mich an einen Ort wo dein webserver Zugang darauf hat und ich für dich erreichbar bin.
+Download me to a place where your webserver has access to it and you can reach me.
 
 ```bash
 git clone https://github.com/pcsg/steemit-holmes
 ```
 
-Danach führe einfach mein installations script aus, 
-dieses script installiert alle wichtige Abhängigkeiten die ich so benötige.
+Then simply run my installations script, this script installs all the important dependencies I need.
 
 ```bash
 php setup.php
 ``` 
 
-Jetzt musst du nur noch im etc Ordner die `config.ini.php` mit den nötigen S2DB Zugangsdaten anpassen und ich bin fertig.
+Now all you have to do is change the `config.ini.php` in the etc folder with the necessary S2DB access data and I'm ready.
+
 
 Features
 ------
@@ -62,8 +61,7 @@ Preview
 ![Preview 1](bin/images/previews/2.jpg)
 
 
-
-Wichtige Links
+Important Links
 ------
 
 - [Repository](https://github.com/pcsg/steemit-holmes)
@@ -72,18 +70,18 @@ Wichtige Links
 - [FAQ](https://github.com/pcsg/steemit-holmes/wiki/faq)
 
 
-Unterstützung
+Support us
 ------
 
-Es gibt viele Wege wie du meine Entwicklung und meine Entwickler unterstützen kanns.
-Einmal kannst du unter https://fundition.io/#!/@pcsg-dev/9i1kzq1zv für die Entwicklung funden.
+There are many ways you can support my development and my developers.
+Once you can visit https://fundition.io/#!/@pcsg-dev/9i1kzq1zv and fund us a little bit.
 
-Zusätzlich nehmen meine Entwickler gerne ein paar Spenden an. 
-Bedenke meine Entwickler leben den Opensource Gedanken. Sie sind der Meinung allgemeine Tools solten frei zugänglich sein.
-Das alles kostet Zeit und viel Wissen und erspart dir Zeit :-)
+In addition, my developers are happy to accept a few donations. 
+Consider my developers live the open source thought. They are of the opinion that general tools should be freely accessible.
+All this takes time and knowledge and saves you time :-)
 
-All deine Spenden fließen in die Entwicklungen und zeigen meinen Entwickler das du Ihre Arbeit sehr schätzt-
-Du kannst unter folgenden Adressen gerne ein Obulus da lassen:
+All your donations used for the development and show my developers that you appreciate their work.
+You are welcome to leave an obulus at the following addresses:
 
 - STEEM: @pcsg-de
 - BTC:
