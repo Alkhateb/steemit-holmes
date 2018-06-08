@@ -35,7 +35,7 @@ system('php composer.phar update');
 echo "Create configuration files";
 mkdir(dirname(__FILE__).'/etc');
 
-$file = dirname(__FILE__).'/etc/conf.ini.php';
+$file = dirname(__FILE__).'/etc/config.ini.php';
 
 $config = '
 #<?php exit; ?>
