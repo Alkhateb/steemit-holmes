@@ -13,10 +13,10 @@ switch ($type) {
         $type = 'mysql';
 }
 
-$host     = $config['database']['type'];
-$database = $config['database']['type'];
-$user     = $config['database']['type'];
-$password = $config['database']['type'];
+$host     = $config['database']['host'];
+$database = $config['database']['database'];
+$user     = $config['database']['user'];
+$password = $config['database']['password'];
 
 try {
     $Database = new PDO(
