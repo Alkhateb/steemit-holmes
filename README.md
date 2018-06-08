@@ -72,7 +72,7 @@ Unterstützung
 ------
 
 Es gibt viele Wege wie du meine Entwicklung und meine Entwickler unterstützen kanns.
-Einmal kannst du unter https://fundition.io/#!/@pcsg-dev für die Entwicklung funden.
+Einmal kannst du unter https://fundition.io/#!/@pcsg-dev/9i1kzq1zv für die Entwicklung funden.
 
 Zusätzlich nehmen meine Entwickler gerne ein paar Spenden an. 
 Bedenke meine Entwickler leben den Opensource Gedanken. Sie sind der Meinung allgemeine Tools solten frei zugänglich sein.
