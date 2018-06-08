@@ -1,6 +1,6 @@
 <?php
 
-require 'header.php';
+require dirname(__FILE__).'/src/libs/header.php';
 
 $tablerDir = '/vendor/tabler/tabler/dist/';
 $page      = false;
@@ -29,6 +29,8 @@ if (isset($_REQUEST['about'])) {
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
+    <title>STEEMIT Holmes - Your S2DB Explorer</title>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
@@ -44,10 +46,8 @@ if (isset($_REQUEST['about'])) {
     <meta name="HandheldFriendly" content="true"/>
     <meta name="MobileOptimized" content="320"/>
 
-    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
-
-    <title>STEEMIT Holmes - Your S2DB Explorer</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
@@ -101,11 +101,11 @@ if (isset($_REQUEST['about'])) {
                     break;
 
                 case 'about':
-                    require 'src/about.php';
+                    require dirname(__FILE__).'/src/about.php';
                     break;
 
                 default:
-                    require 'src/dashboard.php';
+                    require dirname(__FILE__).'/src/dashboard.php';
             }
 
             ?>

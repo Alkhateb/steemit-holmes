@@ -71,7 +71,7 @@ foreach ($votes as $year => $values) {
 <div class="col-lg-6">
     <div class="card">
         <div class="card-header">
-            <h3 class="card-title">Transfer Activity</h3>
+            <h3 class="card-title">Comment Activity</h3>
         </div>
 
         <canvas id="comments" height="360"></canvas>
