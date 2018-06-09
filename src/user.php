@@ -9,10 +9,15 @@ if (!empty($_REQUEST['user'])) {
     $user = trim($user);
 }
 
-if (empty($user)) {
-    echo '<p>Please insert an username</p>';
-} else {
-    ?>
+if (empty($user)) { ?>
+    <div class="my-3 my-md-5">
+        <div class="container">
+            <div class="alert alert-primary">
+                Please insert an username
+            </div>
+        </div>
+    </div>
+<?php } else { ?>
     <div class="my-3 my-md-5">
         <div class="container">
             <div class="page-header">
