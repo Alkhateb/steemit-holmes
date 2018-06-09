@@ -1,3 +1,7 @@
+.nav-item .fa {
+    margin-right: .5rem !important;
+}
+
 .card--description {
     font-size: 12px;
 }

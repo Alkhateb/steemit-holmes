@@ -90,14 +90,14 @@ if (isset($_REQUEST['about'])) {
             </div>
         </div>
 
-        <?php require 'menu.php'; ?>
+        <?php require dirname(__FILE__).'/src/menu.php'; ?>
 
         <main>
             <?php
 
             switch ($page) {
                 case 'user':
-                    //require 'src/user.php';
+                    require dirname(__FILE__).'/src/user.php';
                     break;
 
                 case 'about':
@@ -137,7 +137,10 @@ if (isset($_REQUEST['about'])) {
                             </ul>
                         </div>
                         <div class="col-auto">
-                            <a href="https://github.com/pcsg/steemit-holmes" class="btn btn-outline-primary btn-sm">
+                            <a href="https://github.com/pcsg/steemit-holmes"
+                               class="btn btn-outline-primary btn-sm"
+                               target="_blank"
+                            >
                                 Source code
                             </a>
                         </div>

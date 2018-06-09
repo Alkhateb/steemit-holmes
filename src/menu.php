@@ -3,8 +3,11 @@
         <div class="row align-items-center">
             <div class="col-lg-3 ml-auto">
                 <form class="input-icon my-3 my-lg-0">
-                    <input type="search" class="form-control header-search" placeholder="Search @steemit-username..."
+                    <input type="search"
+                           class="form-control header-search"
+                           placeholder="Search @steemit-username..."
                            tabindex="1"
+                           name="user"
                     >
                     <div class="input-icon-addon">
                         <i class="fe fe-search"></i>
@@ -18,11 +21,11 @@
                             <i class="fe fe-home"></i> Home
                         </a>
                     </li>
-                    <!--                    <li class="nav-item">-->
-                    <!--                        <a href="" class="nav-link" data-toggle="dropdown">-->
-                    <!--                            <i class="fe fe-user"></i> User-->
-                    <!--                        </a>-->
-                    <!--                    </li>-->
+                    <li class="nav-item">
+                        <a href="/?user" class="nav-link<?php if ($page === 'user') { ?> active<?php }; ?>">
+                            <i class="fe fe-user"></i> User
+                        </a>
+                    </li>
                     <!--                    <li class="nav-item">-->
                     <!--                        <a href="" class="nav-link" data-toggle="dropdown">-->
                     <!--                            <i class="fa fa-tags"></i> Tags-->
