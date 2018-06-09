@@ -84,7 +84,7 @@ if (isset($_REQUEST['about'])) {
             <div class="container">
                 <div class="d-flex">
                     <a class="header-brand" href="/">
-                        <img src="/bin/images/jediholmshenwatson2.png" class="header-brand-img" alt="tabler logo">
+                        <img src="/bin/images/jediholmshenwatson-logo.png" class="header-brand-img" alt="tabler logo">
                     </a>
                 </div>
             </div>
