@@ -68,27 +68,26 @@ foreach ($votes as $year => $values) {
 }
 
 ?>
-<div class="col-6">
-    <div class="card">
-        <div class="card-header">
-            Votes per month
-        </div>
 
-        <canvas id="user-votes-per-month" height="360"></canvas>
-
-        <script>
-            new window.Chart(document.getElementById('user-votes-per-month'), {
-                type: 'bar',
-                data: {
-                    labels  : <?php echo json_encode($labels); ?>,
-                    datasets: [{
-                        label          : 'Votes',
-                        backgroundColor: 'rgb(255, 205, 86)',
-                        borderColor    : 'rgb(255, 205, 86)',
-                        data           : <?php echo json_encode($data); ?>
-                    }]
-                }
-            });
-        </script>
+<div class="card">
+    <div class="card-header">
+        Votes per month
     </div>
+
+    <canvas id="user-votes-per-month" height="360"></canvas>
+
+    <script>
+        new window.Chart(document.getElementById('user-votes-per-month'), {
+            type: 'bar',
+            data: {
+                labels  : <?php echo json_encode($labels); ?>,
+                datasets: [{
+                    label          : 'Votes',
+                    backgroundColor: 'rgb(255, 205, 86)',
+                    borderColor    : 'rgb(255, 205, 86)',
+                    data           : <?php echo json_encode($data); ?>
+                }]
+            }
+        });
+    </script>
 </div>

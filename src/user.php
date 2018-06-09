@@ -22,8 +22,14 @@ if (empty($user)) {
             </div>
 
             <div class="row row-cards">
-                <?php require "user/biggestTransfersOutPerMonth.php"; ?>
-                <?php require "user/votesPerMonth.php"; ?>
+                <div class="col-lg-6">
+                    <?php require "user/biggestTransfersOutPerMonth.php"; ?>
+                </div>
+
+                <div class="col-md-6">
+                    <?php require "user/votesPerMonth.php"; ?>
+                    <?php require "user/voteAverage.php"; ?>
+                </div>
             </div>
         </div>
     </div>
