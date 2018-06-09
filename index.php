@@ -87,7 +87,7 @@ if (isset($_REQUEST['about'])) {
                         <img src="/bin/images/jediholmshenwatson-logo.png" class="header-brand-img" alt="tabler logo">
                     </a>
 
-                    <a href="#" class="header-toggler d-lg-noneorder-lg-2 ml-auto collapsed"
+                    <a href="#" class="header-toggler d-lg-none order-lg-2 ml-auto collapsed"
                        data-toggle="collapse"
                        data-target="#headerMenuCollapse"
                        aria-expanded="false"
