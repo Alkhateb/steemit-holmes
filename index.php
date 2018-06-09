@@ -4,7 +4,7 @@ require dirname(__FILE__).'/src/libs/header.php';
 
 $tablerDir = '/vendor/tabler/tabler/dist/';
 $page      = false;
-$user      = '';
+$user      = null;
 
 if (isset($_REQUEST['user'])) {
     $page = 'user';
@@ -85,6 +85,14 @@ if (isset($_REQUEST['about'])) {
                 <div class="d-flex">
                     <a class="header-brand" href="/">
                         <img src="/bin/images/jediholmshenwatson-logo.png" class="header-brand-img" alt="tabler logo">
+                    </a>
+
+                    <a href="#" class="header-toggler d-lg-noneorder-lg-2 ml-auto collapsed"
+                       data-toggle="collapse"
+                       data-target="#headerMenuCollapse"
+                       aria-expanded="false"
+                    >
+                        <span class="header-toggler-icon"></span>
                     </a>
                 </div>
             </div>
