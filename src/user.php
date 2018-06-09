@@ -30,6 +30,11 @@ if (empty($user)) {
                     <?php require "user/votesPerMonth.php"; ?>
                     <?php require "user/voteAverage.php"; ?>
                 </div>
+
+                <div class="col-lg-6">
+                    <?php require "user/firstTransfers.php"; ?>
+                </div>
+
             </div>
         </div>
     </div>
