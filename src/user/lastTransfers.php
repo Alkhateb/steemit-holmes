@@ -4,11 +4,11 @@ $query = '
     SELECT * 
     FROM s2db.sbds_tx_transfers
     WHERE `from` = :username
-    ORDER BY timestamp ASC
+    ORDER BY timestamp DESC
     LIMIT 7;
 ';
 
-$cache = md5('cache-first-transfers-'.$user);
+$cache = md5('cache-last-transfers-'.$user);
 
 /* @var $Item \Stash\Interfaces\ItemInterface */
 $Item = $Cache->getItem($cache);
@@ -29,7 +29,7 @@ if (!$Item->isMiss()) {
 ?>
 <div class="card">
     <div class="card-header">
-        First transfers to other
+        Last transfers to other
     </div>
 
     <table class="table card-table table-striped table-vcenter">
