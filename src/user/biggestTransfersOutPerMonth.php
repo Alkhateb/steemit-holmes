@@ -108,26 +108,28 @@ foreach ($data as $year => $entries) {
     </div>
     <canvas id="biggestTransfersOutPerMonth" height="360" style="max-height: 360px; margin-top: 25px;"></canvas>
 
-    <table class="table card-table table-striped table-vcenter">
-        <thead>
-        <tr>
-            <th>Time</th>
-            <th>Account</th>
-            <th>Amount</th>
-            <th>Currency</th>
-        </tr>
-        </thead>
-        <tbody>
-        <?php foreach ($results as $data) { ?>
+    <div class="table-responsive">
+        <table class="table card-table table-striped table-vcenter table-transfer">
+            <thead>
             <tr>
-                <td><?php echo $data['year'].'-'.sprintf('%02d', (int)$data['month']); ?></td>
-                <td><?php echo $data['username']; ?></td>
-                <td><?php echo number_format($data['amount']); ?></td>
-                <td><?php echo $data['currency']; ?></td>
+                <th>Time</th>
+                <th>Account</th>
+                <th>Amount</th>
+                <th>Currency</th>
             </tr>
-        <?php } ?>
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+            <?php foreach ($results as $data) { ?>
+                <tr>
+                    <td><?php echo $data['year'].'-'.sprintf('%02d', (int)$data['month']); ?></td>
+                    <td><?php echo $data['username']; ?></td>
+                    <td><?php echo number_format($data['amount']); ?></td>
+                    <td><?php echo $data['currency']; ?></td>
+                </tr>
+            <?php } ?>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <script>

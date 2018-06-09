@@ -108,7 +108,6 @@ foreach ($votes as $weight => $amount) {
 
     <canvas id="user-vote-average" height="360" style="height: 360px; margin-top: 20px; margin-bottom: 20px;"></canvas>
 
-
     <script>
         new window.Chart(document.getElementById('user-vote-average'), {
             type   : 'doughnut',
