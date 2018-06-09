@@ -45,12 +45,12 @@ Now all you have to do is change the `config.ini.php` in the etc folder with the
 Features
 ------
 
-- Overview about Account creation stats, latest Block.
-- Comment Activity
-- Vote Activity
-- Registration Activity
-- Transfer Activity
-- Witness Vote Activity
+- Overview about account creation stats, latest Block.
+- Comment activity
+- Vote activity
+- Registration activity
+- Transfer activity
+- Witness Vote activity
 - User metrics
 
 Preview
