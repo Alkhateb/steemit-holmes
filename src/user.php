@@ -17,12 +17,13 @@ if (empty($user)) {
         <div class="container">
             <div class="page-header">
                 <h1 class="page-title">
-                    User Search
+                    User Search for @<?php echo $user; ?>
                 </h1>
             </div>
 
             <div class="row row-cards">
                 <?php require "user/biggestTransfersOutPerMonth.php"; ?>
+                <?php require "user/votesPerMonth.php"; ?>
             </div>
         </div>
     </div>
