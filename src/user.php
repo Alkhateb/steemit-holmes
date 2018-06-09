@@ -39,6 +39,14 @@ if (empty($user)) {
                     <?php require "user/lastTransfers.php"; ?>
                 </div>
 
+                <div class="col-lg-6">
+                    <?php require "user/firstTransfersReceived.php"; ?>
+                </div>
+
+                <div class="col-md-6">
+                    <?php require "user/lastTransfersReceived.php"; ?>
+                </div>
+
             </div>
         </div>
     </div>
