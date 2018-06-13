@@ -66,6 +66,10 @@ if (empty($user)) { ?>
                     <?php require "user/lastTransfersReceived.php"; ?>
                 </div>
 
+                <div class="col-lg-6">
+                    <?php require "user/usedBotsThisMonth.php"; ?>
+                </div>
+
             </div>
         </div>
     </div>
