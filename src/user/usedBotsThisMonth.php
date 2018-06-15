@@ -104,10 +104,10 @@ foreach ($transfers as $transfer) {
                         </td>
                         <td><?php echo $bot; ?></td>
                         <td style="text-align: right">
-                            <?php echo number_format($data['STEEM']); ?>
+                            <?php echo number_format($data['STEEM'], 3); ?>
                         </td>
                         <td style="text-align: right">
-                            <?php echo number_format($data['SBD']); ?>
+                            <?php echo number_format($data['SBD'], 3); ?>
                         </td>
                     </tr>
                 <?php } ?>
@@ -119,8 +119,8 @@ foreach ($transfers as $transfer) {
                     Total
                 </td>
                 <td>&nbsp;</td>
-                <td style="text-align: right"><?php echo number_format($steemTotal); ?> STEEM</td>
-                <td style="text-align: right"><?php echo number_format($sbdTotal); ?> SBD</td>
+                <td style="text-align: right"><?php echo number_format($steemTotal, 3); ?> STEEM</td>
+                <td style="text-align: right"><?php echo number_format($sbdTotal, 3); ?> SBD</td>
             </tr>
             </tfoot>
         </table>
